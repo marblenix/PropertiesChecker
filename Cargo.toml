@@ -1,0 +1,11 @@
+[package]
+name = "PropertyChecker"
+description = "Check mulitple property files for duplicates"
+version = "0.1.0"
+authors = ["Caleb Marble <marblenix@users.noreply.github.com>"]
+edition = "2018"
+publish = false
+
+[dependencies]
+properties = "*"
+clap = {version = "2", features = ["yaml"]}

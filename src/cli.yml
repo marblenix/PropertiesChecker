@@ -1,0 +1,13 @@
+name: PropertyChecker
+args:
+  - FILES:
+      help: Scans the listed files for duplicates
+      required: true
+      multiple: true
+      min_values: 2
+  - separator:
+      short: s
+      help: specify the expected separator
+      required: false
+      multiple: false
+      default_value: "="
